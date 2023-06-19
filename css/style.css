@@ -1,0 +1,210 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+}
+
+.section-heading {
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 100px;
+	padding-bottom: 30px;
+}
+
+/* HEADER */
+.header {
+	position: relative;
+}
+
+.hero-img {
+	position: relative;
+	top: 0;
+	width: 100%;
+	height: 300px;
+	background-image: url('../img/hero-big.jpg');
+	background-position: 0 50%;
+	background-size: cover;
+}
+
+.hero-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(20, 23, 48, 0.577);
+}
+
+.hero-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+}
+
+/* NAV */
+.nav {
+	position: absolute;
+	top: 300px;
+	height: 50px;
+	width: 100%;
+	line-height: 50px;
+	text-align: center;
+	background-color: #333;
+}
+
+.nav-item {
+	display: inline-block;
+	padding: 0 55px;
+}
+
+.nav-item a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+	transition: color 0.3s;
+}
+
+.nav-item a:hover {
+	color: #09f;
+}
+
+/* main */
+.about-us-box {
+	position: relative;
+	width: 100%;
+	height: 350px;
+	margin: 30px auto;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	border-top-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+	overflow: hidden;
+}
+
+.about-us-text {
+	position: absolute;
+	bottom: 0;
+	height: 35%;
+	width: 100%;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #fff;
+}
+
+.about-us-text h3 {
+	padding: 20px 0;
+	text-transform: uppercase;
+}
+
+.top {
+	background-image: url('../img/coffee-819362_1920.jpg');
+}
+
+.middle {
+	background-image: url('../img/mobile-phone-1875813_1920.jpg');
+}
+
+.bottom {
+	background-image: url('../img/office-620822_1920.jpg');
+}
+
+/* usługi */
+ul {
+	text-align: center;
+}
+
+li {
+	list-style-position: inside;
+}
+
+.test {
+	margin-top: 100px;
+	padding-bottom: 30px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+/* cennik */
+table {
+	margin: 0 auto;
+}
+
+table,
+tr,
+td,
+thead,
+th {
+	text-align: center;
+	margin-top: 100px;
+}
+
+tr,
+td,
+thead,
+th {
+	padding: 20px 40px;
+	border: 1px solid black;
+}
+
+thead {
+	background-color: #444;
+	color: #fff;
+}
+
+/* kontakt */
+.contact-box {
+	position: relative;
+	top: 50px;
+	padding: 50px;
+}
+
+.contact {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.fa-solid {
+	font-size: 25px;
+	margin-right: 10px;
+}
+
+/* footer */
+footer {
+	position: relative;
+	height: 70px;
+	margin-top: 40px;
+	text-align: center;
+	background-color: #333;
+}
+
+footer p {
+	line-height: 70px;
+	color: #fff;
+}
+
+footer a {
+	font-size: 20px;
+	padding-left: 15px;
+	color: #fff;
+	transition: color 0.3s;
+}
+
+footer a:hover {
+	color: #09f;
+}
